@@ -2,7 +2,7 @@ def insert_df_bd(params, commit=True):
     """ Insere os parametros no tabela do BD de forma otimizada
 
     Args:
-        params (list): Lista dos dados lidos dos arquivos cmarg
+        params (list): Lista dos dados lidos dos arquivos
 
     """
     try:
