@@ -18,7 +18,7 @@ def insert_df_bd(params, commit=True):
            ,[COLUNA9]
            ,[COLUNA10]
            ,[COLUNA11]) VALUES """
-        print("Inserindo dados de PLD")
+        print("Inserindo dados")
         con = conexao.get_conn()
         cur = con.cursor()
         cur.fast_executemany = True
